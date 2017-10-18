@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>●●●</title>
+  <meta name="description" content="●●●" />
+  <meta name="keywords" content="●●●" />
+  <meta name="author" content="●●●" />
+  
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" sizes="16x16" href="/favicon.ico" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no">
+
+  <meta property="og:image" content="画像のURL（http://から指定）" />
+
+  <link rel="stylesheet" media="screen and (min-width:769px)" type="text/css" href="css/pc_style.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" media="screen" type="text/css" href="css/pc_style.css">
+  <![endif]-->
+  <link rel="stylesheet" media="screen and (max-width:768px)" type="text/css" href="css/sp_style.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="js/menu.css">
+  <link rel="stylesheet" href="js/owl.carousel.css">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="content-wrapper">
+  
+  <!-- Carousel -->
+  <ul class="owl-carousel">
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+  </ul>
+  <!-- Carousel -->
+
+  <div id="menu-wrapper"> 
+    <header role="banner">
+      <div class="headerTop">
+        <div class="siteTitle"><a href="#">SAMPLE SHOP</a></div>
+      </div>
+      <div class="navDrawrBtn"><span></span></div>
+      <nav class="navDrawr" role="tablist">
+        <ul>
+          <li><a href="#" role="tab">MENU A</a>
+            <ul class="sub" role="tabpanel">
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+            </ul>
+          </li>
+          <li><a href="#" role="tab">MENU B</a>
+            <ul class="sub" role="tabpanel">
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+            </ul>
+          </li>
+          <li><a href="#" role="tab">MENU C</a>
+            <ul class="sub" role="tabpanel">
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+            </ul>
+          </li>
+          <li><a href="#" role="tab">MENU D</a>
+            <ul class="sub" role="tabpanel">
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+              <li><a href="#">SUB MENU</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div><!-- header -->
+
+
+  <main class="page-content">
+    <!-- sample item -->
+    <section class="mainvisual">
+      <h1></h1>
+    </section>
+
+    <section class="content-name">
+      <h1></h1>
+
+      <section class="content-name">
+        <h2 class="title"></h2>
+        <p class="text"></p>
+        <figure class="image"></figure>
+      </section>
+
+      <section class="content-name">
+        <h2 class="title"></h2>
+        <p class="text"></p>
+        <figure class="image"></figure>
+      </section>
+    </section>
+    <!-- sample item -->
+  </main><!-- main -->
+
+
+  <footer class="page-footer">
+    <!-- sample item -->
+    <nav>
+      <ul></ul>
+    </nav>
+    <!-- sample item -->
+  </footer><!-- footer -->
+
+</div>
+
+<!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/pagetop.js"></script>
+<script src="js/smooth.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.owl-carousel').owlCarousel({
+		autoplay: true,
+		autoplayHoverPause: true,
+		autoplayTimeout: 5000,
+		loop: true,
+		margin: 20,
+		nav: true,
+            responsive : { //レスポンシブ対応
+            // ブレイクポイント 0以上
+            0 : {
+                items : 1,
+            },
+            // ブレイクポイント 480以上
+            480 : {
+                items : 2,
+            },
+            // ブレイクポイント 768以上
+            768 : {
+                items : 4,
+            }
+        }
+        })
+});
+</script>
+<!-- scripts -->
+
+</body>
+</html>
